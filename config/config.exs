@@ -11,8 +11,7 @@ config :guilds,
   ecto_repos: [Guilds.Repo],
   generators: [binary_id: true]
 
-config :guilds, Guilds.Repo,
-  port: 5454
+config :guilds, Guilds.Repo, port: 5454
 
 # Configures the endpoint
 config :guilds, GuildsWeb.Endpoint,

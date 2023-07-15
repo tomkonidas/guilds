@@ -1,12 +1,8 @@
 # Guilds
 
-<a href="https://github.com/tomkonidas/guilds/blob/main/LICENSE" rel="nofollow">
-  <img alt="License" src="https://img.shields.io/github/license/tomkonidas/guilds?label=License&style=plastic&color=2b2b2b">
-</a>
-
-<a href="https://github.com/tomkonidas/guilds/pulse" rel="nofollow">
-  <img alt="Updated" src="https://img.shields.io/github/last-commit/tomkonidas/guilds?label=Updated&style=plastic&color=00d451">
-</a>
+![CI](https://github.com/tomkonidas/guilds/actions/workflows/ci.yaml/badge.svg)
+![Updated](https://img.shields.io/github/last-commit/tomkonidas/guilds?label=Updated&color=1688f0)
+![License](https://img.shields.io/github/license/tomkonidas/guilds?label=License&color=8A2BE2)
 
 Introducing "Guilds," a revolutionary contact management service that takes
 networking and relationship-building to new heights. With Guilds, not only can

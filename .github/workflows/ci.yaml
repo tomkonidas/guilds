@@ -102,3 +102,16 @@ jobs:
         env:
           MIX_ENV: dev
         run: mix dialyzer --no-check --halt-exit-status --format github
+
+  deploy:
+    name: Deploy app
+    needs: [elixir]
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v3
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
